@@ -1,14 +1,13 @@
 {
     "name": "kusou1-blog",
     "title": "Kusou1 Blog",
-    "author": "Kusou1 <huxpro@gmail.com>",
+    "author": "Kusou1 <zhangshaohong1997@gmail.com>",
     "version": "1.8.2",
-    "homepage": "http://huxpro.github.io",
+    "homepage": "http://Kusou1.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Huxpro/huxpro.github.io"
+        "url": "https://github.com/Kusou1/Kusou1.github.io"
     },
-    "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
     "devDependencies": {
         "grunt": ">=1.3.0",
         "grunt-banner": "~0.2.3",
