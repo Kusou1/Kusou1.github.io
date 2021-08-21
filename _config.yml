@@ -65,18 +65,6 @@ disqus_username: Kusou1
 netease_comment: false
 
 
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'G-CNLZH3K4EN'            # Format: UA-xxxxxx-xx
-ga_domain: kusou1.me
-
-
-
-
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "黄玄，前端娱乐圈 NPC，编程语言/编译器初心者 <br> An UI/Frontend dev & designer accidentally growing into a compiler/PL hacker."
