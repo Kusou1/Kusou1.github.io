@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: 驰名香鸡翅
+# weibo_username: 驰名香鸡翅
 #zhihu_username: huxpro
 github_username: Kusou1
 #twitter_username: huxpro
