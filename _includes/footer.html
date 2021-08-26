@@ -58,8 +58,9 @@
         scriptOne.async = 'async'
         scriptTwo=d.createElement(t)
         scriptTwo.innerHTML="(window.dataLayer = window.dataLayer || [])  (function gtag() {dataLayer.push(arguments)})gtag('js', new Date()) gtag('config', 'G-CNLZH3K4EN')" 
-        s.parentNode.insertBefore(scriptTwo, s);
+        
         s.parentNode.insertBefore(scriptOne, s);
+        s.parentNode.insertBefore(scriptTwo, s);
     }
 </script>
 <!--
