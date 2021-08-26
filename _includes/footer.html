@@ -52,14 +52,12 @@
     function insertGAScript(){
         var d=document,t='script',
         scriptOne=d.createElement(t),
-        s=d.getElementById(t)[0]
+        s=d.getElementsByTagName(t)[0]
         scriptOne.src='https://www.googletagmanager.com/gtag/js?id=G-CNLZH3K4EN'
         scriptOne.setAttribute('async')
         scriptTwo=d.createElement(t)
-        scriptTwo.innerHTML="(window.dataLayer = window.dataLayer || [])  (function gtag() {dataLayer.push(arguments)})gtag('js', new Date()) gtag('config', 'G-CNLZH3K4EN')"
-        
+        scriptTwo.innerHTML="(window.dataLayer = window.dataLayer || [])  (function gtag() {dataLayer.push(arguments)})gtag('js', new Date()) gtag('config', 'G-CNLZH3K4EN')" 
         s.parentNode.insertBefore(scriptTwo, s);
-        
         s.parentNode.insertBefore(scriptOne, s);
     }
 </script>
