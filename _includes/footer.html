@@ -54,7 +54,8 @@
         scriptOne=d.createElement(t),
         s=d.getElementsByTagName(t)[0]
         scriptOne.src='https://www.googletagmanager.com/gtag/js?id=G-CNLZH3K4EN'
-        scriptOne.setAttribute('async')
+        
+        scriptOne.setAttributeNode('async')
         scriptTwo=d.createElement(t)
         scriptTwo.innerHTML="(window.dataLayer = window.dataLayer || [])  (function gtag() {dataLayer.push(arguments)})gtag('js', new Date()) gtag('config', 'G-CNLZH3K4EN')" 
         s.parentNode.insertBefore(scriptTwo, s);
