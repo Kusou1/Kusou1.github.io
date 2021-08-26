@@ -56,8 +56,10 @@
         scriptOne.src='https://www.googletagmanager.com/gtag/js?id=G-CNLZH3K4EN'
         scriptOne.setAttribute('async')
         scriptTwo=d.createElement(t)
-        scriptTwo.innerHTML="window.dataLayer = window.dataLayer || [] <br/> function gtag() {dataLayer.push(arguments)}<br/>gtag('js', new Date()) gtag('config', 'G-CNLZH3K4EN')"
+        scriptTwo.innerHTML="(window.dataLayer = window.dataLayer || [])  (function gtag() {dataLayer.push(arguments)})gtag('js', new Date()) gtag('config', 'G-CNLZH3K4EN')"
+        
         s.parentNode.insertBefore(scriptTwo, s);
+        
         s.parentNode.insertBefore(scriptOne, s);
     }
 </script>
