@@ -1237,14 +1237,14 @@ samp {
 }
 .intro-header .site-heading h1 {
   display: inline-block;
-  width: 21ch;
+  width: 12ch;
   font: bold 200% Consolas, Monaco, monospace;
   /*等宽字体*/
   overflow: hidden;
   white-space: nowrap;
   font-weight: 500;
   border-right: 1px solid transparent;
-  animation: typing 3s steps(21), caret 0.5s steps(1) infinite;
+  animation: typing 2s steps(12), caret 0.5s steps(1) infinite;
 }
 .intro-header .header-img-credit {
   position: absolute;
