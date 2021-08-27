@@ -1235,7 +1235,7 @@ samp {
     font-size: 20px;
   }
 }
-.intro-header .site-heading h1 {
+.intro-header .site-heading .site-title {
   display: inline-block;
   width: 12ch;
   font: bold 200% Consolas, Monaco, monospace;
