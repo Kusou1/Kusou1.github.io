@@ -60,7 +60,7 @@ netease_comment: false
 sidebar: true # whether or not using Sidebar.
 # An Frontend dev & designer wanna growing into a graph master.
 sidebar-about-description: '张少宏,前端,WebGL<br> Graph is Awesome!'
-sidebar-avatar: /img/avatar-hux-ny.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
