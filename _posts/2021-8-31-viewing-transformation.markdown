@@ -6,7 +6,7 @@ author: 'zhangshaohong'
 header-style: text
 catalog: true
 tags:
-    - Fundamentals of Computer Graphics
+    - Graphics
     - Math
 ---
 
