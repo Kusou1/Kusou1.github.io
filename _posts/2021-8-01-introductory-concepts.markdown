@@ -3,7 +3,7 @@ layout:       post
 title:        "图形学概念导论"
 date:         2021-08-01 11:31:00
 author:       "zhangshaohong"
-header-style: text
+header-img:   "img/post-bg-graphics.jpg"
 catalog:      true
 tags:
     - Graphics
