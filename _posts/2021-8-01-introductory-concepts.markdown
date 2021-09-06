@@ -3,8 +3,7 @@ layout:       post
 title:        "图形学概念导论"
 date:         2021-08-01 11:31:00
 author:       "zhangshaohong"
-header-img: ""
-header-bg-css: "linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);"
+header-img:   "img/post-bg-2015.jpg"
 catalog:      true
 tags:
     - Graphics
