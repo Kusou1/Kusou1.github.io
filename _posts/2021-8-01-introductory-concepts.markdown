@@ -110,97 +110,123 @@ $$ S_y = {C_h \over 2} - C_y $$
 
 物体有不同的颜色，因为它们以不同的方式吸收和反射光线。让我们先从白光说起，比如阳光(阳光并非完完全全是白色，但是对我们来说足够了)。白光包含了各种波长的光。当它撞击一个物体时，该物体的表面吸收一些波长并反射另一些波长，这取决于物体的材质。一些反射的光线照射到我们的眼睛上，我们的大脑将其转化为颜色。什么颜色？波长被表面反射的波长之和。
 
-So what’s going on with the crayons?你从纸上反射的白光开始。因为它是白纸，所以它能反射大部分光线。当你用“黄色”蜡笔画的时候，你添加了一层材料，它可以吸收一些波长，但是可以让其他波长通过。它们被纸反射，再次穿过黄色层，击中你的眼睛，然后你的大脑将这种特殊的波长组合解释为“黄色”黄色层所做的是从原始的白光中减去一束波长。
-So what’s going on with the crayons? You start with white light reflecting off the paper. Since it’s white paper, it reflects most of the light it receives. When you draw with a “yellow” crayon, you’re adding a layer of a material that absorbs some wavelengths but lets others pass through it. They’re reflected by the paper, pass through the yellow layer again, hit your eyes, and your brain interprets that particular combination of wavelengths as “yellow.” What the yellow layer does is *subtract* a bunch of wavelengths from the original white light.
+So what’s going on with the crayons? 你从纸上反射的白光开始。因为它是白纸，所以它能反射大部分光线。当你用“黄色”蜡笔画的时候，你添加了一层材料，它可以吸收一些波长，同时可以让另一些波长通过。它们被纸反射，再次穿过黄色层，击中你的眼睛，然后你的大脑将这种特殊的波长组合解释为“黄色”。黄色层所做的是从原始的白光中减去一束波长。
 
-You can think of each colored circle as a filter: when you draw a blue circle overlapping the yellow one, you’re filtering out even more wavelengths from the original light, so what hits your eyes is whatever wavelengths weren’t filtered by either the blue or the yellow circles, which your brain sees as “green.”
+你可以把每个彩色圆看作一个过滤器: 当你画一个蓝色圆圈与黄色圆圈重叠时，你从原始光中过滤掉了更多的波长，所以你眼睛看到的是那些没有被蓝色或黄色圆圈过滤掉的波长，你的大脑看到的是“绿色”
 
-In summary, we start with all wavelengths and subtract some amount of the primary colors to create any other color. This color model gets its name from the fact that we’re creating colors by subtracting wavelengths.
+总之，我们开始时是所有的波长，减去一些原色来创造任何其他颜色。这个颜色模型的名字来源于我们通过减去波长来创造颜色。
 
-This model isn’t quite right, though. The actual primary colors in the subtractive model aren’t the blue, red, and yellow taught to toddlers and art students, but cyan, magenta, and yellow. Furthermore, mixing the three primary colors produces a somewhat darkish color that isn’t quite black, so pure black is added as a fourth “primary.” Because B is used to represent blue, black is denoted by K, and so we arrive at the *CMYK color model* (Figure 1-4).
+不过，这种模式并不完全正确。减色模型中实际的原色不是教给幼儿和艺术学生的蓝色「blue」、红色「red」和黄色「yellow」，而是青色「cyan」、洋红色「magenta」和黄色「yellow」。此外，混合这三种原色会产生一种略暗的颜色，这种颜色并不是完完全全的黑色，所以纯黑色被添加到第四种“原色「primary」”中因为 b 用来表示蓝色，黑色用 k 表示，所以我们得到了印刷四分色模式「CMYK」（图2-5)。
 
-You can see evidence of this color model directly on the cartridges of color printers, or sometimes in the shapes of cheaply printed flyers where the different colors are slightly offset from one another.
+![Figure 1-4: The four subtractive primary colors used by printers](https://gabrielgambetta.com/computer-graphics-from-scratch/images/01-primaries2.png)
+<center>图2-5: 打印机使用的四种减色原色</center>
 
-![Figure 1-4: The four subtractive primary colors used by printers](https://gabrielgambetta.com/computer-graphics-from-scratch/images/01-primaries2.png)Figure 1-4: The four subtractive primary colors used by printers
+你可以在彩色打印机的墨盒之中直接看到这种颜色模型的迹象，在那种不同的颜色彼此略微偏移的廉价印刷的传单上。
 
-### [Additive Color Model](https://gabrielgambetta.com/computer-graphics-from-scratch/01-common-concepts.html#additive-color-model)
+![CMYK](/img/in-post/post-introductory/cmyk.jpg)
+<center>图2-6: the different colors are slightly offset from one another</center>
 
-The subtractive color model is only half the story. If you’ve ever looked at a screen up close or with a magnifying glass (or, let’s be honest, accidentally sneezed on it), you’ve probably seen tiny colored dots: these are red, green, and blue.
+### 加色法模型「Additive Color Model」
 
+减色法模式只是这故事的其中一半。如果你曾经近距离或者用放大镜看过屏幕(又或者说某些时候，你不小心在屏幕面前打了个喷嚏) ，你可能会看到一些彩色的小点: 它们是红色「red」、绿色「green」和蓝色「blue」。
+
+电脑屏幕和纸不同。纸张不发光，它只是反射照射它的部分光线。另一方面，屏幕是黑色的，但它自身会发光。对于纸张，我们从白光开始，减去我们不想要的波长; 对于屏幕，我们从没有光开始，然后增加我们想要的波长。
 Computer screens are the opposite of paper. Paper doesn’t emit light; it merely reflects part of the light that hits it. Screens, on the other hand, are black, but they do emit light on their own. With paper, we start with white light and *subtract* the wavelengths we don’t want; with a screen, we start with no light and *add* the wavelengths we want.
-
-Different primary colors are necessary for this. Most colors can be created by adding different amounts of red, green, and blue to a black surface; this is the *RGB color model*, an *additive color model*, shown in Figure 1-5.
+不同的原色是必要的。大多数颜色可以通过向黑色表面添加不同数量的红色「red」、绿色「green」和蓝色「blue」来创建; 这是 *RGB color model*，*加色法模型「additive color model」*，如图2-7所示。
 
 The combination of additive primary colors is *lighter* than its components, whereas the combination of subtractive primary colors is *darker*; all the additive primaries add up to white, while all the subtractive primaries add up to black.
+加色法三原色的组合比其成分的颜色*lighter*，而减色法三原色的组合颜色*darker*; 加色法三原色相加得到的是白色，而减色法三原色相加得到是黑色。
 
-![Figure 1-5: The additive primary colors and some of their combinations](https://gabrielgambetta.com/computer-graphics-from-scratch/images/01-primaries3.png)Figure 1-5: The additive primary colors and some of their combinations
+![Figure 2-7: The additive primary colors and some of their combinations](https://gabrielgambetta.com/computer-graphics-from-scratch/images/01-primaries3.png)
+<center>图 2-7: The additive primary colors and some of their combinations</center>
 
-### [Forget the Details](https://gabrielgambetta.com/computer-graphics-from-scratch/01-common-concepts.html#forget-the-details)
+### Forget the Details
 
-Now that you know all this, you can selectively forget most of the details and focus on what’s important for our work.
+Now that you know all this, 你可以有选择地忘记大多数细节，专注于对我们工作重要的事情.
 
-Most colors can be represented in either RGB or CMYK (or in any of the many other color models), and it’s possible to convert from one *color space* to another. Since we’re focusing on rendering things on a screen, we use the RGB color model for the rest of this book.
+大多数颜色可以用 RGB 或 CMYK (或者其他颜色模型)表示，并且可以从一个*color space*转换到另一个。由于我们的重点是在屏幕上渲染东西，后续使用到的为 RGB 颜色模型。
 
-As described above, objects absorb part of the light reaching them and reflect the rest. Which wavelengths are absorbed and which are reflected is what we perceive as the “color” of the surface. From now on, we’ll simply treat the color as a property of a surface and forget about light wavelengths.
+如上所述，物体吸收接触它们的部分光线并反射其余光线。哪些波长被吸收，哪些被反射，这就是我们所感知到的表面的“Color”。从现在开始，我们将简单地把Color看作是表面的一个属性，而忘记光的波长。
+## 色彩深度和表现「Color Depth and Representatio」
 
-## [Color Depth and Representation](https://gabrielgambetta.com/computer-graphics-from-scratch/01-common-concepts.html#color-depth-and-representation)
+显示器通过混合不同数量的红色、绿色和蓝色来创建颜色。它们以不同的电压照亮表面上不同强度的彩色小点，从而达到为们的预期。「image intensity」表示单通道图像像素的强度（值的大小）,RGB则包含三个image 
 
-Monitors create colors by mixing different amounts of red, green, and blue. They do this by lighting the tiny colored dots on their surface at different intensities by supplying different voltages to them.
+有多少不同的intensity是我们可以拿到的呢？虽然voltage is continuous，但我们使用计算机操纵颜色，它使用离散值(discrete values)。我们能够表现的红色、绿色和蓝色的色调越多，我们就能够生产出更多的颜色。
 
-How many different intensities can we get? Although voltage is continuous, we’ll be manipulating colors with a computer, which uses discrete values (that is, a limited number of them). The more shades of red, green, and blue we can represent, the more colors we’ll be able to produce.
+现在你看到的大多数图像每个primary color使用8 bits，在这里我们称之为色彩通道「*color channel*」。使用8 bits 每通道给我们24 bits每像素，总共有$2^{24}$不同的颜色(大约1670万)。这种格式被称为 *R8G8B8*或简称为*888*。我们说这种格式的颜色深度*color depth*为24位
 
-Most images you see these days use 8 bits per primary color, which we call a *color channel* in this context. Using 8 bits per channel gives us 24 bits per pixel, for a total of 224224 different colors (approximately 16.7 million). This format, known as *R8G8B8* or simply *888*, is the one we’ll use throughout this book. We say this format has a *color depth* of 24 bits.
+这不是唯一的格式。之前，为了节省内存，15位和16位格式还很流行，15位格式每个通道分配5位，16位格式则是红色5位，绿色6位，蓝色5位，(称为*R5G6B5* 或 *565*格式)。绿色得到多一个bit是因为我们的眼睛对绿色的变化比红色或蓝色的变化更敏感。如图2-8,会发现，绿色的点会多过其他的
 
-This is by no means the only possible format. Not so long ago, in order to save memory, 15- and 16-bit formats were popular, assigning 5 bits per channel in the 15-bit case, and 5 bits for red, 6 for green, and 5 for blue in the 16-bit case (known as the *R5G6B5* or *565* format). Green gets the extra bit because our eyes are more sensitive to changes in green than to changes in red or blue.
+![Screen](/img/in-post/post-introductory/Screen.jpg)
+<center>图 2-8: LCD频幕上的像素</center>
 
-With 16 bits, we get 216216 colors (approximately 65,000). This means you get one color for every 256 colors in 24-bit mode. Although 65,000 colors is plenty, for images where colors change very gradually you would be able to see very subtle “steps” that just aren’t visible with 16.7 million colors, where there are enough bits to represent the colors in between. For some specialized applications, such as color grading for movies, it’s a good idea to represent even more color detail, using even more bits per channel.
-
-We’ll use 3 bytes to represent a color, each holding the value of an 8-bit color channel, from 0 to 255. We’ll express the colors as (R,G,B)(R,G,B)—for example, (255,0,0)(255,0,0) represents pure red; (255,255,255)(255,255,255) represents white; and (255,0,128)(255,0,128) represents a reddish purple.
-
-## [Color Manipulation](https://gabrielgambetta.com/computer-graphics-from-scratch/01-common-concepts.html#color-manipulation)
-
-We’ll use a handful of operations to manipulate colors. If you know some linear algebra, you can think of colors as vectors in 3D color space. If not, don’t worry, we’ll go through the basic operations we’ll be using now.
-
-We can modify the intensity of a color by multiplying each of its color channels by a constant:
+使用16位，我们可以得到$2^{16}$种颜色(大约65000种)。这意味着在24-bit模式下，每256种颜色只有一种颜色。虽然65,000种颜色已经足够了，但对于颜色渐变图像，你可以看到非常微妙的过程，而这些过程在16,700万种颜色中是看不到的，其中有足够的bits来表示渐变的两色之间的颜色。对于一些特殊的应用，比如电影的色彩分级，使用更多的色彩细节是一个好主意，每个*color channel*使用更多的bits。
 
 
+我们将使用3个字节来表示一种颜色，每个字节包含一个8位颜色通道「8-bit color channel」的值，从0到255。我们将颜色表示为$(r，g，b)$,例如，$(255,0,0)$表示纯红色; $(255,255,255)$表示白色; $(255,0,128)$表示紫红色。
 
-k(R,G,B)=(kR,kG,kB)k(R,G,B)=(kR,kG,kB)
+## 色彩处理「Color Manipulation」
+
+接下来我们将处理颜色。如果你知道一些线性代数，你可以把颜色想象成三维颜色空间中的向量。
+
+我们可以通过将每个颜色通道乘以一个常数来调整颜色的强度:
+$$ k(R, G, B) = (kR, kG, kB) $$
+
+例如，$(32,0,128)$是$(16,0,64)$的两倍。
+
+我们可以将两种颜色的color channels分别地叠加在一起:
+$$ (R_1, G_1, B_1) + (R_2, G_2, B_2) = (R_1 + R_2, G_1 + G_2, B_1 + B_2) $$
+
+
+例如，如果我们想要组合 red $(255,0,0)$和 green $(0,255,0)$ ,我们按通道将它们相加，然后得到$(255,255,0)$ ，也就是yellow!
+
+这些操作可能产生无效值; 例如，将$(192、64、32)$加倍,将产生超出我们颜色范围的 $R$ 值。我们将大于255的任何值视为255，小于0的任何值视为0; 我们将值限制在[0-255]的范围内。这或多或少等同于你在现实生活中拍摄一张曝光不足或过度的照片时所发生的情况: 你得到的要么是完完全全黑的要么是完完全全的白色。
 
 
 
-For example, (32,0,128)(32,0,128) is twice as bright as (16,0,64)(16,0,64).
+## 场景「The Scene」
 
-We can add two colors together by adding their color channels separately:
+到目前为止，我们已经介绍了Canvas画布，一个我们可以在上面给像素上色的抽象表面。现在我们通过引入另一个抽象的概念，把注意力转移到我们感兴趣的物体上: 场景 the *scene*。
+
+场景是你可能感兴趣的渲染对象的集合。它可以代表任何东西，从漂浮在无限空间中的单个球体(我们将从那里开始)到一个脾气暴躁的怪物鼻子内部的详细模型。
+
+我们需要一个坐标系来讨论场景中的物体。我们不能使用与画布相同的坐标系，原因有二。首先，canvas画布是二维的，而scenes场景是三维的。其次，画布和场景使用不同的单位: 我们为画布使用pixels像素，为场景使用真实世界的单位(如英制或米制)。
 
 
+轴的选择是任意的，因此我们将选择一些对我们的目的有用的东西。我们定义 $Y$ 是朝上的，$X$ 和 $Z$ 是水平的，这三个轴都互相垂直。可以把 $XZ$ 平面想象成“地板”，而 $XY$ 和 $YZ$ 平面是方形房间中的垂直“墙壁”。这与我们为画布选择的坐标系一致，y 为上，x 为水平。图1-6显示了它的样子。
 
-(R1,G1,B1)+(R2,G2,B2)=(R1+R2,G1+G2,B1+B2)(R1,G1,B1)+(R2,G2,B2)=(R1+R2,G1+G2,B1+B2)
+![Figure 1-6: The coordinate system we’ll use for our scenes](https://gabrielgambetta.com/computer-graphics-from-scratch/images/coordinate-system.png)
+<center>图 2-9: 我们将在scenes场景中使用的坐标系</center>
 
+场景单位的选择有点随意，它取决于你的场景代表什么。如果你在模拟一个茶杯，“1”可能意味着1英寸，如果你在模拟太阳系，“1”可能意味着1天文单位。只要我们始终如一地使用我们选择的单位，它们是什么并不重要，所以从现在开始我们可以安全地忽略它们。
 
+## 总结「Summary」
 
-For example, if we want to combine red (255,0,0)(255,0,0) and green (0,255,0)(0,255,0), we add them channel-wise and get (255,255,0)(255,255,0), which is yellow.
+在本篇文章中，我们介绍了 canvas，它是一个抽象概念，表示一个我们可以绘制的矩形表面，加上一个我们将在其上构建所有东西的方法: `PutPixel`。我们还选择了一个坐标系来表示画布上的像素，并描述了一种表示这些像素颜色的方法。最后，我们引入了场景的概念，并选择了一个在场景中使用的坐标系。
 
-These operations can yield invalid values; for example, doubling the intensity of (192,64,32)(192,64,32) produces an RR value outside our color range. We’ll treat any value over 255 as 255, and any value below 0 as 0; we call this *clamping* the value to the [0–255] range. This is more or less equivalent to what happens when you take an under- or over-exposed photograph in real life: you get either completely black or completely white areas.
+```javascript
+// ======================================================================
+//  Low-level canvas access. 
+// ======================================================================
 
-That about sums it up for our primer on colors and `PutPixel`. Before we move on to the next chapter, let’s spend a little time exploring how to represent the 3D objects we’ll be rendering.
+var canvas = document.getElementById("canvas");
+var canvas_context = canvas.getContext("2d");
+var canvas_buffer = canvas_context.getImageData(0, 0, canvas.width, canvas.height);
+var canvas_pitch = canvas_buffer.width * 4;
 
-## [The Scene](https://gabrielgambetta.com/computer-graphics-from-scratch/01-common-concepts.html#the-scene)
+// The PutPixel() function.
+var PutPixel = function(x, y, color) {
+  x = canvas.width/2 + Math.floor(x);
+  y = canvas.height/2 - Math.floor(y) - 1;
 
-So far, we have introduced the canvas, the abstract surface on which we can color pixels. Now we turn our attention to the objects we’re interested in representing by introducing another abstraction: the *scene*.
+  if (x < 0 || x >= canvas.width || y < 0 || y >= canvas.height) {
+    return;
+  }
 
-The scene is the set of objects you may be interested in rendering. It could represent anything, from a single sphere floating in the empty infinity of space (we’ll start there) to an incredibly detailed model of the inside of a grumpy ogre’s nose.
-
-We need a coordinate system to talk about objects within the scene. We can’t use the same coordinate system as the canvas, for two reasons. First, the canvas is 2D, whereas the scene is 3D. Second, the canvas and the scene use different units: we use pixels for the canvas and real-world units (such as the imperial or metric systems) for the scene.
-
-The choice of axes is arbitrary, so we’ll pick something useful for our purposes. We’ll say that YY is up and XX and ZZ are horizontal, and all three axes are perpendicular to each other. Think of the plane XZXZ as the “floor,” while XYXY and YZYZ are vertical “walls” in a square room. This is consistent with the coordinate system we chose for the canvas, where YY is up and XX is horizontal. Figure 1-6 shows what this looks like.
-
-![Figure 1-6: The coordinate system we’ll use for our scenes](https://gabrielgambetta.com/computer-graphics-from-scratch/images/coordinate-system.png)Figure 1-6: The coordinate system we’ll use for our scenes
-
-The choice of scene units is somewhat arbitrary; it depends on what your scene represents. A measurement of “1” could mean 1 inch if you’re modeling a teacup, or it could mean 1 astronomical unit if you’re modeling the Solar System. As long as we use our chosen units consistently, it doesn’t matter what they are, so we can safely ignore them from now on.
-
-## [Summary](https://gabrielgambetta.com/computer-graphics-from-scratch/01-common-concepts.html#summary)
-
-In this chapter, we’ve introduced the canvas, an abstraction that represents a rectangular surface we can draw on, plus the one method we’ll build everything else on: `PutPixel`. We’ve also chosen a coordinate system to refer to the pixels on the canvas and described a way to represent the color of these pixels. Lastly, we introduced the concept of a scene and chose a coordinate system to use in the scene.
-
-Having laid these foundations, it’s time to start building a raytracer and a rasterizer on top of them.
+  var offset = 4*x + canvas_pitch*y;
+  canvas_buffer.data[offset++] = color[0];
+  canvas_buffer.data[offset++] = color[1];
+  canvas_buffer.data[offset++] = color[2];
+  canvas_buffer.data[offset++] = 255; // Alpha = 255 (full opacity)
+}
+```
