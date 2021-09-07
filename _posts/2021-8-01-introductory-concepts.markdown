@@ -5,6 +5,7 @@ date:         2021-08-01 11:31:00
 author:       "zhangshaohong"
 header-img:   "img/post-bg-2015.jpg"
 catalog:      true
+mathjax:      true
 tags:
     - Graphics
     - Math
