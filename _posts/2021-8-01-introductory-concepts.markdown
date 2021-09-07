@@ -41,16 +41,16 @@ canvas有一个width和一个height(以pixels为单位) ，我们称之为 $C_w$
 <center>图1-2: 我们在Canvas上使用的坐标系</center>
 
 x坐标的范围是 
-$$ [{-C_w \over 2},{C_w \over 2}) $$ 
+$ [{-C_w \over 2},{C_w \over 2}) $ 
 y 坐标的范围是 
-$$ [{-C_h \over 2}, {C_h \over 2}) $$
+$ [{-C_h \over 2}, {C_h \over 2}) $
 . 我们只让 `PutPixel` 在这个范围内有效.
 
 Canvas将绘制在屏幕上，因此我们需要从一个坐标系转换到另一个。要做到这一点，我们需要改变坐标系的中心和 y 轴的相反方向。由此得到的换算公式如下:
 
-$$ S_x = {C_w \over 2} + C_x $$
+$ S_x = {C_w \over 2} + C_x $
 
-$$ S_y = {C_h \over 2} - C_y $$
+$ S_y = {C_h \over 2} - C_y $
 
 
 
@@ -132,10 +132,9 @@ So what’s going on with the crayons? 你从纸上反射的白光开始。因�
 减色法模式只是这故事的其中一半。如果你曾经近距离或者用放大镜看过屏幕(又或者说某些时候，你不小心在屏幕面前打了个喷嚏) ，你可能会看到一些彩色的小点: 它们是红色「red」、绿色「green」和蓝色「blue」。
 
 电脑屏幕和纸不同。纸张不发光，它只是反射照射它的部分光线。另一方面，屏幕是黑色的，但它自身会发光。对于纸张，我们从白光开始，减去我们不想要的波长; 对于屏幕，我们从没有光开始，然后增加我们想要的波长。
-Computer screens are the opposite of paper. Paper doesn’t emit light; it merely reflects part of the light that hits it. Screens, on the other hand, are black, but they do emit light on their own. With paper, we start with white light and *subtract* the wavelengths we don’t want; with a screen, we start with no light and *add* the wavelengths we want.
+
 不同的原色是必要的。大多数颜色可以通过向黑色表面添加不同数量的红色「red」、绿色「green」和蓝色「blue」来创建; 这是 *RGB color model*，*加色法模型「additive color model」*，如图2-7所示。
 
-The combination of additive primary colors is *lighter* than its components, whereas the combination of subtractive primary colors is *darker*; all the additive primaries add up to white, while all the subtractive primaries add up to black.
 加色法三原色的组合比其成分的颜色*lighter*，而减色法三原色的组合颜色*darker*; 加色法三原色相加得到的是白色，而减色法三原色相加得到是黑色。
 
 ![Figure 2-7: The additive primary colors and some of their combinations](https://gabrielgambetta.com/computer-graphics-from-scratch/images/01-primaries3.png)
@@ -171,12 +170,13 @@ Now that you know all this, 你可以有选择地忘记大多数细节，专注�
 接下来我们将处理颜色。如果你知道一些线性代数，你可以把颜色想象成三维颜色空间中的向量。
 
 我们可以通过将每个颜色通道乘以一个常数来调整颜色的强度:
-$$ k(R, G, B) = (kR, kG, kB) $$
+
+$k(R, G, B) = (kR, kG, kB)$
 
 例如，$(32,0,128)$ 是 $(16,0,64)$的两倍。
 
 我们可以将两种颜色的color channels分别地叠加在一起:
-$$ (R_1, G_1, B_1) + (R_2, G_2, B_2) = (R_1 + R_2, G_1 + G_2, B_1 + B_2) $$
+$(R_1, G_1, B_1) + (R_2, G_2, B_2) = (R_1 + R_2, G_1 + G_2, B_1 + B_2)$
 
 
 例如，如果我们想要组合 red $(255,0,0)$和 green $(0,255,0)$ ,我们按通道将它们相加，然后得到$(255,255,0)$ ，也就是yellow!
