@@ -40,17 +40,15 @@ canvas有一个width和一个height(以pixels为单位) ，我们称之为 $C_w$
 ![Figure 1-2: The coordinate system we’ll use for our canvas](https://gabrielgambetta.com/computer-graphics-from-scratch/images/00-coordinates2.png)
 <center>图1-2: 我们在Canvas上使用的坐标系</center>
 
-x坐标的范围是 
-$ [{-C_w \over 2},{C_w \over 2}) $ 
-y 坐标的范围是 
-$ [{-C_h \over 2}, {C_h \over 2}) $
+x坐标的范围是 $ [{-C_w \over 2},{C_w \over 2}) $
+y 坐标的范围是$ [{-C_h \over 2}, {C_h \over 2}) $
 . 我们只让 `PutPixel` 在这个范围内有效.
 
 Canvas将绘制在屏幕上，因此我们需要从一个坐标系转换到另一个。要做到这一点，我们需要改变坐标系的中心和 y 轴的相反方向。由此得到的换算公式如下:
+\$$ S_x = {C_w \over 2} + C_x $$
 
-$ S_x = {C_w \over 2} + C_x $
-
-$ S_y = {C_h \over 2} - C_y $
+以及
+\$$ S_y = {C_h \over 2} - C_y $$
 
 
 
@@ -169,14 +167,12 @@ Now that you know all this, 你可以有选择地忘记大多数细节，专注�
 
 接下来我们将处理颜色。如果你知道一些线性代数，你可以把颜色想象成三维颜色空间中的向量。
 
-我们可以通过将每个颜色通道乘以一个常数来调整颜色的强度:
-
-$k(R, G, B) = (kR, kG, kB)$
+我们可以通过将每个颜色通道乘以一个常数来调整颜色的强度:\$$k(R, G, B) = (kR, kG, kB)$$
 
 例如，$(32,0,128)$ 是 $(16,0,64)$的两倍。
 
 我们可以将两种颜色的color channels分别地叠加在一起:
-$(R_1, G_1, B_1) + (R_2, G_2, B_2) = (R_1 + R_2, G_1 + G_2, B_1 + B_2)$
+\$$(R_1, G_1, B_1) + (R_2, G_2, B_2) = (R_1 + R_2, G_1 + G_2, B_1 + B_2)$$
 
 
 例如，如果我们想要组合 red $(255,0,0)$和 green $(0,255,0)$ ,我们按通道将它们相加，然后得到$(255,255,0)$ ，也就是yellow!
@@ -194,7 +190,7 @@ $(R_1, G_1, B_1) + (R_2, G_2, B_2) = (R_1 + R_2, G_1 + G_2, B_1 + B_2)$
 我们需要一个坐标系来讨论场景中的物体。我们不能使用与画布相同的坐标系，原因有二。首先，canvas画布是二维的，而scenes场景是三维的。其次，画布和场景使用不同的单位: 我们为画布使用pixels像素，为场景使用真实世界的单位(如英制或米制)。
 
 
-轴的选择是任意的，因此我们将选择一些对我们的目的有用的东西。我们定义 $Y$ 是朝上的，$X$ 和 $Z$ 是水平的，这三个轴都互相垂直。可以把 $XZ$ 平面想象成“地板”，而 $XY$ 和 $YZ$ 平面是方形房间中的垂直“墙壁”。这与我们为画布选择的坐标系一致，y 为上，x 为水平。图1-6显示了它的样子。
+轴的选择是任意的，因此我们将选择一些对我们的目的有用的东西。我们定义 $Y$ 是朝上的，$X$ 和 $Z$ 是水平的，这三个轴都互相垂直。可以把 $XZ$ 平面想象成“地板”，而 $XY$ 和 $YZ$ 平面是方形房间中的垂直“墙壁”。这与我们为画布选择的坐标系一致，$y$ 为上，$x$ 为水平。图1-6显示了它的样子。
 
 ![Figure 1-6: The coordinate system we’ll use for our scenes](https://gabrielgambetta.com/computer-graphics-from-scratch/images/coordinate-system.png)
 <center>图 2-9: 我们将在scenes场景中使用的坐标系</center>
