@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "图形学概念导论"
-date:         2021-08-01 11:31:00
+date:         2021-08-21 11:31:00
 author:       "zhangshaohong"
 header-img:   "img/post-bg-2015.jpg"
 catalog:      true
@@ -227,3 +227,12 @@ var PutPixel = function(x, y, color) {
   canvas_buffer.data[offset++] = 255; // Alpha = 255 (full opacity)
 }
 ```
+
+
+## **Reference**
+
+[1] Computer Graphics from Scratch
+
+[2] GAMES101-现代计算机图形学入门-闫令琪
+
+[3] [人眼感知到的颜色与真实物理世界的颜色有什么区别?](https://www.zhihu.com/question/24860046/answer/29241400)
