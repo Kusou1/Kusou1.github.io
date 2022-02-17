@@ -47,12 +47,6 @@ console.log([] == []);
 console.log(+[] == +[]);
 ```
 
-如果不能准确的说出以上的结果，或者是想更深入的理解以上的转换过程，推荐先看两篇文章：
-
-[JavaScript专题之头疼的类型转换(上).md](https://github.com/mqyqingfeng/Blog/issues/159)
-
-[JavaScript专题之头疼的类型转换(下).md](https://github.com/mqyqingfeng/Blog/issues/164)
-
 ## 开始解密
 
 第一个效果：
