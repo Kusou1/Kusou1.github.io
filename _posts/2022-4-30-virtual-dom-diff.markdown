@@ -102,7 +102,8 @@ React.createElement(
 
 Virtual DOM 对象的更新和比较仅发生在内存中，不会在视图中渲染任何内容，所以这一部分的性能损耗成本是微不足道的。
 
-<img src="./images/1.png" style="margin: 20px 0;width: 80%"/>
+
+<img src="/img/virtual-dom-diff/1.png" style="margin: 20px 0;width: 80%"/>
 
 ```react
 <div id="container">
@@ -201,7 +202,7 @@ console.log(virtualDOM)
 
 通过以上代码测试，发现返回的 Virtual DOM 存在一些问题，第一个问题是文本节点被直接放入到了数组中
 
-<img src="./images/2.png" width="50%"/>
+<img src="/img/virtual-dom-diff/2.png" width="50%"/>
 
 而我们期望是文本节点应该是这样的
 
@@ -237,7 +238,7 @@ return {
 }
 ```
 
-<img src="./images/3.png" width="50%"/>
+<img src="/img/virtual-dom-diff/3.png" width="50%"/>
 
 通过观察返回的 Virtual DOM，文本节点已经被转化成了对象类型的 Virtual DOM，但是布尔值也被当做文本节点被转化了，在 JSX 中，如果 Virtual DOM 被转化为了布尔值或者null，是不应该被更新到真实 DOM 中的，所以接下来要做的事情就是清除 Virtual DOM 中的布尔值和null。
 
@@ -578,7 +579,7 @@ export default function mountNativeElement(virtualDOM, container) {
 }
 ```
 
-<img src="./images/8.png" width="80%" style="margin-bottom: 30px"/>
+<img src="/img/virtual-dom-diff/8.png" width="80%" style="margin-bottom: 30px"/>
 
 #### 9.1 Virtual DOM 类型相同
 
@@ -690,7 +691,7 @@ else if (oldVirtualDOM && virtualDOM.type === oldVirtualDOM.type) {
   }
 ```
 
-<img src="./images/7.png"/>
+<img src="/img/virtual-dom-diff/7.png"/>
 
 #### 9.2 Virtual DOM 类型不同
 
@@ -717,7 +718,7 @@ else if (
 
 在节点更新完成以后，如果旧节点对象的数量多于新 VirtualDOM 节点的数量，就说明有节点需要被删除。
 
-<img src="./images/5.png" width="40%" align="left"/>
+<img src="/img/virtual-dom-diff/5.png" width="40%" align="left"/>
 
 ```react
 // 获取就节点的数量
