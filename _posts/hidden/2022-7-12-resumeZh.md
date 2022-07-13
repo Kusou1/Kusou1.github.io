@@ -90,7 +90,7 @@ Coin地址：[https://kusou1-coin.vercel.app/](https://kusou1-coin.vercel.app/) 
 ## 技能
 
 - 熟练掌握HTML5/CSS3,PC端和移动端
-- 了解ES6/ES7,Webpack
+- 了解ES6/ES7
 - 熟悉Node.js，使用过express,Koa2,Egg.js框架开发服务端，了解GraphQL及Apollo
 - 了解MongoDB及Redis,了解Serverless架构
 - 熟悉Antd Design,Element UI,Vant UI,tailwindcss等常用前端UI框架，了解Style-Component，chakraUI
@@ -98,7 +98,7 @@ Coin地址：[https://kusou1-coin.vercel.app/](https://kusou1-coin.vercel.app/) 
 - 了解Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架
 - 了解Hybrid开发以及Electron桌面开发,及Flutter原生App开发
 - 熟悉Web3相关的开发工具，hardhat,openzeppelin,web3.js,ethers.js,solidity,了解ERC20及ERC721
-- 熟悉Git进行团队协作，熟悉前端工程化思想，了解微前端架构，webpack模块联邦
+- 熟悉Git进行团队协作，具备良好的前端工程化思想，熟练使用Webpack、grunt等打包工具,了解微前端架构，webpack模块联邦
 - 了解前端自动化测试，及性能优化，了解Web Components
 - 熟悉前端可视化解决方案，如D3.js,Three.js,AntV,Echarts.js等
 
