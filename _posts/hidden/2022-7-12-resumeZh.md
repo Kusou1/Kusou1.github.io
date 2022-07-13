@@ -100,6 +100,7 @@ Coin地址：[https://kusou1-coin.vercel.app/](https://kusou1-coin.vercel.app/) 
 - 熟悉Web3相关的开发工具，hardhat,openzeppelin,web3.js,ethers.js,solidity,了解ERC20及ERC721
 - 熟悉Git进行团队协作，熟悉前端工程化思想，了解微前端架构，webpack模块联邦
 - 了解前端自动化测试，及性能优化，了解Web Components
+- 熟悉前端可视化解决方案，如D3.js,Three.js,AntV,Echarts.js等
 
 
 ## 教育
