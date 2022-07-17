@@ -92,7 +92,7 @@ Coin地址：[https://kusou1-coin.vercel.app/](https://kusou1-coin.vercel.app/) 
 - 熟练掌握HTML5/CSS3,PC端和移动端
 - 了解ES6/ES7
 - 熟悉Node.js，使用过express,Koa2,Egg.js框架开发服务端，了解GraphQL及Apollo
-- 了解MongoDB及Redis,了解Serverless架构
+- 了解MongoDB及Redis,了解Serverless
 - 熟悉Antd Design,Element UI,Vant UI,tailwindcss等常用前端UI框架，了解Style-Component，chakraUI
 - 熟悉React-Native开发,熟悉小程序开发及uni-app
 - 了解Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架
