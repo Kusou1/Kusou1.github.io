@@ -7,6 +7,7 @@ header-style: text
 catalog: true
 tags:
     - Web Components
+    - CSS Doodle
 ---
 
 > Creating a cool Liquid page using css-doodle
