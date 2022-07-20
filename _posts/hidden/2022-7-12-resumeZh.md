@@ -16,7 +16,7 @@ hidden: true
 
 ## 个人介绍
 
-于2018年开始接触前端，喜欢了解前沿技术阅读技术文档。好奇心推动我学习新知识，对新技术有热情，喜欢自己动手去实现些有趣的想法。拥有较强的学习能力和解决问题的能力，能保证项目在周期内完成的同时也兼顾了质量。在寻找一个位置让我能够发挥我的所能，并且能够让我自身的能力得到进步，平时喜欢打羽毛球、游泳、看电影听听歌。
+于2018年开始接触前端，喜欢了解前沿技术阅读技术文档。好奇心推动我学习新知识，对新技术有热情，喜欢自己动手去实现些有趣的想法。拥有较强的学习能力和解决问题的能力，能保证项目在周期内完成的同时也兼顾了质量。在寻找一个位置让我能够发挥我的所能，并且能够让我自身的能力得到进步。
 
 
 ## 工作经验
@@ -96,7 +96,7 @@ Coin地址：[https://kusou1-coin.vercel.app/](https://kusou1-coin.vercel.app/) 
 - 熟悉Antd Design,Element UI,Vant UI,tailwindcss等常用前端UI框架，了解Style-Component，chakraUI
 - 熟悉React-Native开发,熟悉小程序开发及uni-app
 - 了解Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架
-- 了解Hybrid开发以及Electron桌面开发,及Flutter原生App开发
+- 了解Hybrid开发以及Electron桌面开发,及Flutter原生App开发，使用Marerial Design构建UI界面
 - 熟悉Web3相关的开发工具，hardhat,openzeppelin,web3.js,ethers.js,solidity,了解ERC20及ERC721
 - 熟悉Git进行团队协作，具备良好的前端工程化思想，熟练使用Webpack、grunt等打包工具,了解微前端架构，webpack模块联邦
 - 了解前端自动化测试，及Web Components
