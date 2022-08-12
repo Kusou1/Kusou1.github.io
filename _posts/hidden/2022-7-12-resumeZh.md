@@ -14,10 +14,19 @@ hidden: true
 
 中文 ｜ [英文](/2022/07/12/resume/)
 
-## 个人介绍
 
-于2018年开始接触前端，喜欢了解前沿技术阅读技术文档。好奇心推动我学习新知识，对新技术有热情，喜欢自己动手去实现些有趣的想法。拥有较强的学习能力和解决问题的能力，能保证项目在周期内完成的同时也兼顾了质量。在寻找一个位置让我能够发挥我的所能，并且能够让我自身的能力得到进步。
+## 技能
 
+- 熟练掌握前端基础技能，熟练掌握ES Next、HTML5、CSS3新特性，熟悉Web Components
+- 熟练掌握Vue及React框架，及Vuex，Redux，Mobx等状态管理
+- 熟悉Antd Design,Element UI,Vant UI,tailwindcss等常用前端UI框架，了解Style-Component，chakraUI
+- 熟悉Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架
+- 具备 Node.js,及相关框架（如Koa、Express、Egg）的使用经验，和MongoDB、Redis等数据库操作经验,了解Serverless架构，熟悉GraphQL及Apollo
+- 熟悉Electron桌面开发,及Flutter原生App开发,及React-Native开发，熟悉小程序开发及uni-app
+- 熟悉Web3相关的开发工具，hardhat,openzeppelin,了解web3.js,ethers.js,solidity,了解ERC20及ERC721
+- 熟悉Webpack/gulp/rollup等前端打包工具，对前端工程化有深入实践,熟悉微前端及webpack模块联邦
+- 熟悉前端性能优化，有Linux项目部署经验
+- 熟悉SVG、Canvas，熟悉前端可视化解决方案，如D3.js,AntV,Echarts.js等，熟悉webGL技术，熟悉Three.js及Cesium.js，熟悉GLSL，熟悉3D美术制作工具Blender
 
 ## 工作经验
 
@@ -65,6 +74,9 @@ hidden: true
 
 ## 个人项目
 
+### WebGL-Learn
+地址: [https://github.com/Kusou1/WebGL-Learn](https://github.com/Kusou1/WebGL-Learn)
+
 ### Kusou1 Bank & Coin(Ethereum)
 
 `React` `tailwindcss` `ethers.js` `solidity`  `hardhat` `openzeppelin`
@@ -87,22 +99,11 @@ Coin地址：[https://kusou1-coin.vercel.app/](https://kusou1-coin.vercel.app/) 
 
 - 通过sitemap对seo进行优化
 
-## 技能
 
-- 熟练掌握HTML5/CSS3,PC端和移动端
-- 了解ES6/ES7
-- 熟悉Node.js，使用过express,Koa2,Egg.js框架开发服务端，了解GraphQL及Apollo
-- 了解MongoDB及Redis,了解Serverless
-- 熟悉Antd Design,Element UI,Vant UI,tailwindcss等常用前端UI框架，了解Style-Component，chakraUI
-- 熟悉React-Native开发,熟悉小程序开发及uni-app
-- 了解Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架
-- 了解Hybrid开发以及Electron桌面开发,及Flutter原生App开发，使用Marerial Design构建UI界面
-- 熟悉Web3相关的开发工具，hardhat,openzeppelin,web3.js,ethers.js,solidity,了解ERC20及ERC721
-- 熟悉Git进行团队协作，具备良好的前端工程化思想，熟练使用Webpack、grunt等打包工具,了解微前端架构，webpack模块联邦
-- 了解前端自动化测试，及Web Components
-- 熟悉性能优化的方案，使用LightHouse,WebPageTest,浏览器DevTools等进行性能测试
-- 熟悉前端可视化解决方案，如D3.js,Three.js,AntV,Echarts.js等
 
+## 个人介绍
+
+喜欢了解前沿技术阅读技术文档。好奇心推动我学习新知识，对新技术有热情，喜欢自己动手去实现些有趣的想法。拥有较强的学习能力和解决问题的能力，能保证项目在周期内完成的同时也兼顾了质量。在寻找一个位置让我能够发挥我的所能，并且能够让我自身的能力得到进步，平时喜欢打羽毛球、游泳、看电影听听歌。
 
 ## 教育
 
