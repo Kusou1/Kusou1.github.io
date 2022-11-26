@@ -25,7 +25,7 @@ hidden: true
 - 熟悉Electron桌面开发,及Flutter原生App开发,及React-Native开发，熟悉小程序开发及uni-app
 - 熟悉使用ethers.js和web3.js与智能合约交互
 - 熟悉Webpack/gulp/rollup等前端打包工具，对前端工程化有深入实践,熟悉微前端及webpack模块联邦
-- 熟悉前端性能优化，有Linux项目部署经验
+- 熟悉前端性能优化
 - 熟悉SVG、Canvas，熟悉前端可视化解决方案，如D3.js,AntV,Echarts.js等，熟悉webGL技术，熟悉Three.js及Cesium.js，熟悉GLSL，熟悉3D美术制作工具Blender
 
 ## 工作经验
