@@ -82,10 +82,14 @@ hidden: true
   - 配合产品和项目主管不断改进完善项目和提升用户体验，完成UI设计的想法及效果
 
 
-## 个人项目
+## 其他
 
 ### WebGL-Learn
 地址: [https://github.com/Kusou1/WebGL-Learn](https://github.com/Kusou1/WebGL-Learn)
+
+### MoveDAO 成员 
+[Twitter](https://twitter.com/MoveDAOofficial)
+ 
 
 <!-- ### Kusou1 Bank & Coin(Ethereum)
 
