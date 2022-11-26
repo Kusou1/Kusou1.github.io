@@ -18,17 +18,30 @@ hidden: true
 ## 技能
 
 - 熟练掌握前端基础技能，熟练掌握ES Next、HTML5、CSS3新特性，熟悉Web Components
-- 熟练掌握Vue及React框架，及Vuex，Redux，Mobx等状态管理
+- 熟练掌握Vue及React框架，及Vuex，Redux，Mobx等状态管理，熟悉Angular
 - 熟悉Antd Design,Element UI,Vant UI,tailwindcss等常用前端UI框架，了解Style-Component，chakraUI
 - 熟悉Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架
-- 具备 Node.js,及相关框架（如Koa、Express、Egg）的使用经验，和MongoDB、Redis等数据库操作经验,了解Serverless架构，熟悉GraphQL及Apollo
+- 具备 Node.js,及相关框架（如Koa、Express、Egg）的使用经验，和MongoDB、Redis等数据库操作经验,了解GraphQL及Apollo
 - 熟悉Electron桌面开发,及Flutter原生App开发,及React-Native开发，熟悉小程序开发及uni-app
-- 熟悉Web3相关的开发工具，hardhat,openzeppelin,了解web3.js,ethers.js,solidity,了解ERC20及ERC721
+- 熟悉使用ethers.js和web3.js与智能合约交互
 - 熟悉Webpack/gulp/rollup等前端打包工具，对前端工程化有深入实践,熟悉微前端及webpack模块联邦
 - 熟悉前端性能优化，有Linux项目部署经验
 - 熟悉SVG、Canvas，熟悉前端可视化解决方案，如D3.js,AntV,Echarts.js等，熟悉webGL技术，熟悉Three.js及Cesium.js，熟悉GLSL，熟悉3D美术制作工具Blender
 
 ## 工作经验
+
+### [MAS Universe](https://twitter.com/meta_avatar) (Part Time Job)
+
+- MAS Universe NFT交易市场
+  - 负责交易市场开发的前端部分 
+  - 与合约开发配合完成前端与智能合约的交互，完成所需功能
+  - 实现多种钱包连接
+
+### [Aigens](www.aigens.com) (2022.7 - 至今)
+
+[关于Aigens](https://www.linkedin.com/company/aigens/)
+
+负责Console系统的开发以及维护，以及Mobile页面的开发
 
 ### 广州伊智信息技术有限公司 （2021.1-2022.5）
 
@@ -54,7 +67,6 @@ hidden: true
   - 参与产品需求分析，产品模块的概要设计。
   - 高质量编码还原UI设计的界面，同后端合作实现数据的交互，功能上的优化。
   - 负责伊智店务系统多国语言化i18n
-  - web端调起摄像头扫描二维码功能开发，原先软件的扫码支付功能是靠原生应用桥接，提供的能力，实现了不在app下，也能使用扫码支付
 - 剧本杀业务DM端（React，ant-design）
   - 这是一个为剧本杀门店DM所开发的应用，辅助DM的日常管理及游戏管理，更好的管理客户，提升效率
   - 采用TypeScript、React及Ant-design开发，在Antd的基础上，根据业务进行组件的二次封装，方便各个页面复用
@@ -77,7 +89,7 @@ hidden: true
 ### WebGL-Learn
 地址: [https://github.com/Kusou1/WebGL-Learn](https://github.com/Kusou1/WebGL-Learn)
 
-### Kusou1 Bank & Coin(Ethereum)
+<!-- ### Kusou1 Bank & Coin(Ethereum)
 
 `React` `tailwindcss` `ethers.js` `solidity`  `hardhat` `openzeppelin`
 Bank地址：[https://bank-dapp-osbwi635o-aka-mosthappyman.vercel.app/](https://bank-dapp-osbwi635o-aka-mosthappyman.vercel.app/)（以太币银行）
@@ -97,13 +109,13 @@ Coin地址：[https://kusou1-coin.vercel.app/](https://kusou1-coin.vercel.app/) 
 
 - 通过google-analytics进行流量数据的监控
 
-- 通过sitemap对seo进行优化
+- 通过sitemap对seo进行优化 -->
 
 
 
 ## 个人介绍
 
-喜欢了解前沿技术阅读技术文档。好奇心推动我学习新知识，对新技术有热情，喜欢自己动手去实现些有趣的想法。拥有较强的学习能力和解决问题的能力，能保证项目在周期内完成的同时也兼顾了质量。在寻找一个位置让我能够发挥我的所能，并且能够让我自身的能力得到进步，平时喜欢打羽毛球、游泳、看电影听听歌。
+从事前端相关工作三年时间，有蛮丰富的经验，乐于学习以及解决问题，有一定的审美，喜爱design和code，让有趣的设计和想法找到能够用代码实现方法，对Web3感兴趣，希望能够与合适团队共同成长，并为Web3做出自己贡献
 
 ## 教育
 
