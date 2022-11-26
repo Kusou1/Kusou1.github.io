@@ -23,10 +23,12 @@ hidden: true
 - 熟悉Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架
 - 具备 Node.js,及相关框架（如Koa、Express、Egg）的使用经验，和MongoDB、Redis等数据库操作经验,了解GraphQL及Apollo
 - 熟悉Electron桌面开发,及Flutter原生App开发,及React-Native开发，熟悉小程序开发及uni-app
-- 熟悉使用ethers.js和web3.js与智能合约交互
 - 熟悉Webpack/gulp/rollup等前端打包工具，对前端工程化有深入实践,熟悉微前端及webpack模块联邦
 - 熟悉前端性能优化
 - 熟悉SVG、Canvas，熟悉前端可视化解决方案，如D3.js,AntV,Echarts.js等，熟悉webGL技术，熟悉Three.js及Cesium.js，熟悉GLSL，熟悉3D美术制作工具Blender
+- 熟悉使用ethers.js和web3.js与智能合约交互,熟悉Web3相关的开发工具，hardhat，openzeppelin等
+- 了解零知识证明相关概念
+- 能够使用英文进行读写及基本交流
 
 ## 工作经验
 
