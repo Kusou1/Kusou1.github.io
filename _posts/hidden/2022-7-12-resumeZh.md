@@ -30,16 +30,15 @@ hidden: true
 
 ## 工作经验
 
-### [MAS Universe](https://twitter.com/meta_avatar) (Part Time Job)
+### [MAS Universe](https://twitter.com/meta_avatar) (兼职)
 
 - MAS Universe NFT交易市场
   - 负责交易市场开发的前端部分 
-  - 与合约开发配合完成前端与智能合约的交互，完成所需功能
+  - 使用ether.js与智能合约的交互,实现NFT的展示，购买，上架等功能
   - 实现多种钱包连接
 
-### [Aigens](www.aigens.com) (2022.7 - 至今)
 
-[关于Aigens](https://www.linkedin.com/company/aigens/)
+### [Aigens](https://www.aigens.com) (2022.7 - 至今)
 
 负责Console系统的开发以及维护，以及Mobile页面的开发
 
@@ -58,7 +57,7 @@ hidden: true
   - 该商城基于Shopify建站程序，使用了Shopify Theme Lab创建Shopify主题，页面使用Vue3组件化开发，UI库用Element Plus按需导入，数据层通过Liquid语言将商城数据包成对象结构传入Vue组件中使用，Vuex作为状态管理工具，最终通过Webpack打包到Shopify主题中完成页面展示。将主要开发语言使用了前端熟悉的Vue，不仅组件化工程化方便管理，大大降低了开发难度。
   - 所有页面的内容部分，数据和图片以及产品均通过Liquid语言将其绑定到Shopify店铺后台中。后期运营人员可直接在商城的后台管理页面上要显示的文字及图片，修改商品信息，监控流量，添加导入评论。动画库使用了AOS，配置了动画要求所需的参数，定义了许多动画属性满足各个页面组件复用。
 - Protecia 商城 [https://proteciaskincare.ca/](https://proteciaskincare.ca/) (Vue3,Liquid,Tailwindcss)
-  - 延续了The Clinca商城的开发模式，开发的新品牌shopify商城，完成动画效果的同时，兼顾多端的和谐，与海外团队对接完成交付并上线
+- 
 - 伊智软件 [https://sy.meimeifa.com/](https://sy.meimeifa.com/#/) (Vue2)
   - 这是一个专门为美业商家设计的Sass软件，辅助商家的日常管理、提升效率、营销、定制App等等。
   - 项目采用TypeScript 和 Vue Composition API保障类型检测。
