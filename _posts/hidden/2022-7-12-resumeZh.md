@@ -29,7 +29,7 @@ hidden: true
 - 能够使用英文进行读写及基本交流
 
 ## 工作经验
-### [Aigens Technology Limited](https://www.facebook.com/aigens/) （2022-至今）
+### [Aigens Technology Limited](https://www.aigens.com/) （2022-至今）
 公司主要为餐饮行业提供技术服务，主公司在香港，客户遍布Malaysia, Indonesia, Thailand,Chinese,Hongkong,为美心食品，汉堡王，Jollibee，Nando's,Pizza Hut,Tim horton's,IKEA等知名餐饮企业提供服务，bring people in and lure them back,提供的Digital ordering, POS, CRM solutions等服务，为企业带来更多的客户，更快的效率，更大的订单，Aigens does it all.
 - Aigens Console
 (Angular,TypeScript,Tailwind,Ant Design of Angular)
