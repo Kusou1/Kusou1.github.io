@@ -21,9 +21,9 @@ hidden: true
 - 熟练掌握Vue、React，熟悉Angular框架,熟练掌握Vuex，Redux，Mobx等状态管理
 - 熟悉常用前端UI框架，如Antd Design,Element UI,Vant UI,tailwindcss等
 - 熟悉Nuxt.js,Next.js,Gridsome,Gatsby等服务器端渲染的框架，熟练掌握Shopify商城的开发
-- 具备 Node.js,及相关框架（如Koa、Express、Egg）的使用经验，和MongoDB、Redis等数据库操作经验，熟悉GraphQL和Apollo
+- 熟悉Node.js,及相关框架，如Koa、Express、Egg,熟悉MongoDB、Redis，熟悉GraphQL和Apollo
 - 对前端各端的开发都熟悉Electron桌面开发,及Flutter原生App开发,及React-Native开发
-- 熟练使用Web3.js,Ethers.js，熟悉Web3相关的开发工具，Hardhat,Openzeppelin,熟悉Solidity语言
+- 熟练使用Web3.js,Ethers.js,ccxt.js,熟悉Web3相关的开发工具，Hardhat,Openzeppelin,熟悉Solidity语言
 - 熟悉Webpack/Vite/Gulp/rollup等前端打包工具，熟悉前端工程化,熟悉微前端及Webpack模块联邦
 - 熟悉SVG、Canvas，熟悉前端数据可视化框架，如D3.js,AntV,Echarts.js等，熟悉webGL技术，熟悉Three.js及Cesium.js，熟悉GLSL着色器语言，熟悉3D美术制作工具Blender的使用
 - 能够使用英文进行读写及基本交流
@@ -35,8 +35,9 @@ hidden: true
 (Angular,TypeScript,Tailwind,Ant Design of Angular)
 	- 公司提供客户管理订单数据，员工管理，店铺管理，客户关系维护等功能的后台管理系统，让客户能够更好，更有效率的管理。
   - 与设计师配合，高质量还原UI设计的界面，同后端合作实现数据的交互，功能上的优化。
-  - 新功能的开发迭代及维护，与产品经理讨论需求
+  - 新功能的开发迭代及维护，与产品经理讨论需求。
   - 参与产品需求分析，产品模块开发。
+  - 将chatgpt接入到console系统当中,使用fine-tuning适配系统，使之能够一些关于系统的问题，简化了人工的工作。
 
 ### [MAS Universe](https://twitter.com/meta_avatar)
 参与 MAS Universe的Web3 项目，主要负责Market的前端开发。
@@ -74,7 +75,7 @@ hidden: true
   - 参与产品需求分析，产品模块的概要设计。
   - 高质量还原UI设计的界面，同后端合作实现数据的交互，功能上的优化。
   - 负责伊智店务系统多国语言化i18n
-  - web端调起摄像头扫描二维码功能开发，原先软件的扫码支付功能是靠原生应用桥接，提供的能力，实现了不在app下，也能使用扫码支付
+  - web端调起摄像头扫描二维码功能开发
 
 - 剧本杀业务DM端
 (React,React-Hooks,TypeScript,Ant-design)
@@ -88,9 +89,14 @@ hidden: true
 ### WebGL-Learn
 地址: [https://github.com/Kusou1/WebGL-Learn](https://github.com/Kusou1/WebGL-Learn)
 
-### MoveDAO 成员 
-[Twitter](https://twitter.com/MoveDAOofficial)
- 
+### Aptos Collective
+[Twitter](https://twitter.com/Aptos_Network)
+
+### Rogue Trader成员
+[youtube](https://www.youtube.com/@roguetrader-niko/featured)
+Rogue Trader 致力于让韭菜白嫖各类交易课程 打击收费教学，大饼以太趋势分享、行情复盘。
+我主要做的是桌面端的开发，用到的技术是electron + react,支持win及mac,使用ccxt.js与各大交易所进行交互
+用户可以观察各类币种的k线走势图，及自己账户的余额与历史交易，并可以在新币种上交易所时打新，快人一步，更有机会盈利,目前也是免费使用
 
 <!-- ### Kusou1 Bank & Coin(Ethereum)
 
