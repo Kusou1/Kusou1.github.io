@@ -39,17 +39,6 @@ hidden: true
   - 参与产品需求分析，产品模块开发。
   - 将chatgpt接入到console系统当中,使用fine-tuning适配系统，使之能够一些关于系统的问题，简化了人工的工作。
 
-### [MAS Universe](https://twitter.com/meta_avatar)
-参与 MAS Universe的Web3 项目，主要负责Market的前端开发。
-- MAS Market
-（Vue2.7,Vite,JSX,VueUse,Ether.js,TypeScript）
-	- 与设计师配合完成，按照UI设计图，完成前端页面
-  - 使用ether.js与智能合约交互，实现NFT的展示，购买，上架，Mint等功能
-  - 使用Vue JSX的写法
-  - 实现多钱包连接，让Market能够使用多种Web3钱包进行连接，如MetaMask，BitKeep，WalletConnect等
-  - 实现向多种社交平台转发的推文的功能，如twitter，facebook，telegram，weibo等等
-  - 实现i18n的功能
-
 ### 广州伊智信息技术有限公司 （2020-2022）
 
 负责公司国际板块的商城和官网，以及参与公司Sass软件的开发和CRM的开发
@@ -97,6 +86,18 @@ hidden: true
 Rogue Trader 致力于让韭菜白嫖各类交易课程 打击收费教学，大饼以太趋势分享、行情复盘。
 我主要做的是桌面端的开发，用到的技术是electron + react,支持win及mac,使用ccxt.js与各大交易所进行交互
 用户可以观察各类币种的k线走势图，及自己账户的余额与历史交易，并可以在新币种上交易所时秒挂单，更有机会盈利,目前也是免费使用
+
+### [MAS Universe](https://twitter.com/meta_avatar)
+参与 MAS Universe的Web3 项目，主要负责Market的前端开发。
+- MAS Market
+（Vue2.7,Vite,JSX,VueUse,Ether.js,TypeScript）
+	- 与设计师配合完成，按照UI设计图，完成前端页面
+  - 使用ether.js与智能合约交互，实现NFT的展示，购买，上架，Mint等功能
+  - 使用Vue JSX的写法
+  - 实现多钱包连接，让Market能够使用多种Web3钱包进行连接，如MetaMask，BitKeep，WalletConnect等
+  - 实现向多种社交平台转发的推文的功能，如twitter，facebook，telegram，weibo等等
+  - 实现i18n的功能
+
 
 <!-- ### Kusou1 Bank & Coin(Ethereum)
 
