@@ -96,7 +96,7 @@ hidden: true
 [youtube](https://www.youtube.com/@roguetrader-niko/featured)
 Rogue Trader 致力于让韭菜白嫖各类交易课程 打击收费教学，大饼以太趋势分享、行情复盘。
 我主要做的是桌面端的开发，用到的技术是electron + react,支持win及mac,使用ccxt.js与各大交易所进行交互
-用户可以观察各类币种的k线走势图，及自己账户的余额与历史交易，并可以在新币种上交易所时打新，快人一步，更有机会盈利,目前也是免费使用
+用户可以观察各类币种的k线走势图，及自己账户的余额与历史交易，并可以在新币种上交易所时秒挂单，更有机会盈利,目前也是免费使用
 
 <!-- ### Kusou1 Bank & Coin(Ethereum)
 
